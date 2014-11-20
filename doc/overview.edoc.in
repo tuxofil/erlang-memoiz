@@ -1,0 +1,13 @@
+@author Aleksey Morarash <aleksey.morarash@gmail.com>
+@copyright 2014 Aleksey Morarash <aleksey.morarash@gmail.com>
+@version {{VERSION}}
+@title Welcome to Memoization Library for Erlang.
+@doc == Contents ==
+
+<ol>
+ <li>{@section Summary}</li>
+</ol>
+
+== Summary ==
+
+A simple implementation of memoization based on ETS.

@@ -1,0 +1,21 @@
+Source: erlang-memoiz
+Section: devel
+Priority: extra
+Maintainer: Aleksey Morarash <aleksey.morarash@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), erlang-base, erlang-dev, erlang-tools,
+ erlang-edoc, erlang-eunit, erlang-dialyzer
+Standards-Version: 3.9.3
+Homepage: https://github.com/tuxofil/erlang-memoiz
+Vcs-Browser: https://github.com/tuxofil/erlang-memoiz
+Vcs-Git: https://github.com/tuxofil/erlang-memoiz.git
+
+Package: erlang-memoiz
+Architecture: all
+Depends: erlang-base
+Description: Memoization library for Erlang
+ Memoization library for Erlang.
+
+Package: erlang-memoiz-doc
+Architecture: all
+Description: Developer documentation for the memoization library.
+ Contains generated HTML documentation for the memoization library source code.

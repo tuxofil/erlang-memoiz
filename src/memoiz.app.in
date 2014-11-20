@@ -1,0 +1,19 @@
+%%% @author Aleksey Morarash <aleksey.morarash@gmail.com>
+%%% @since 20 Nov 2014
+%%% @copyright 2014, Aleksey Morarash <aleksey.morarash@gmail.com>
+%%% @doc memoiz application resource file
+
+{application, memoiz,
+ [
+  {description,  "Memoization Library"},
+  {vsn,          "{{VERSION}}"},
+  {modules,      [memoiz,
+                  memoiz_app,
+                  memoiz_sup,
+                  memoiz_srv
+                 ]},
+  {registered,   [memoiz_sup,
+                  memoiz_srv
+                 ]},
+  {mod,          {memoiz_app, []}}
+ ]}.
