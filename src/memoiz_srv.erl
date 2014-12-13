@@ -1,5 +1,5 @@
 %%% @doc
-%%% Handles a TCP connection.
+%%% Main activity.
 
 %%% @author Aleksey Morarash <aleksey.morarash@gmail.com>
 %%% @since 20 Nov 2014
